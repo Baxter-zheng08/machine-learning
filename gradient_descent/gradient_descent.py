@@ -50,4 +50,4 @@ def evaluate_model(X_test, y_test, theta):
     print(f"RMSE = {rmse:.4f}")
     return y_predict
 
-y_pred_test = evaluate_model(X_test, y_test, theta_final)
+y_pred_test = evaluate_model(X_test, y_test, theta_final）
